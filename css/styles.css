@@ -168,7 +168,8 @@ input {
 
 @media (min-width: 1000px) {
     body {
-        font-size: 2rem;        
+        font-size: 2rem;  
+        display: flex;      
     }
     
     h1 {
@@ -180,6 +181,18 @@ input {
         font-size: 2.5rem;
     }
    
+    .intro,
+    .main-content {
+        width: 50%;
+        min-height: 100vh;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .main-content > * {
         max-width: 600px;
     }
