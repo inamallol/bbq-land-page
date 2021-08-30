@@ -138,7 +138,7 @@ input {
    media queries 
    ================= */
    
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     body {
         font-size: 1.125rem;
         display: flex;
@@ -190,5 +190,9 @@ input {
 
     .fine-print {
         font-size: 1rem;
+    }
+
+    .top-text {
+        font-size: 1.1rem;
     }
 }
